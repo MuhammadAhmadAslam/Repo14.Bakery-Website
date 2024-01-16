@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(Fonts/Poppins/Poppins-Black.ttf/);
+}
+@font-face {
+    font-family: 'Salsa';
+    src: url(Fonts/Fonts/Salsa/Salsa-Regular.ttf);
+}
+@font-face {
+    font-family: 'Tetkur';
+    src: url(Fonts/Fonts/Tektur/Tektur-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.t1{
+    font-family: 'Salsa';
+    font-size: 2vh;
+    color: #908B8B;
+}
+.heading{
+     color: #4b4342;
+     text-align: center;
+}
+#ima{
+    border-radius: 50%;
+    height: 13vh;
+    width:  13vh;
+}
+.para{
+    color: #908B8B;
+    font-size: 3vh;
+    font-family: 'Salsa';
+}
+.button1{
+    background-color: #5FCAC7;
+    font-family: 'Salsa';
+    
+}
