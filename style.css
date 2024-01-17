@@ -39,3 +39,65 @@
     font-family: 'Salsa';
     
 }
+.d1{
+    background-color: #F3F0F0;
+    margin: 30px;
+    padding: 60px;
+}
+.table1{
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #908B8B;
+}
+.div1{
+    background-color: #2A2A2A;
+    color: azure;
+    font-family: 'Poppins';
+    height: 22vh;
+}
+.button{
+    border-radius: 50px;
+    border: 1px solid plum;
+    width: 150px ;
+    height: 5px;
+    background-color: #5fcac7;
+    color: #ffffff ;
+    text-decoration: dotted;
+    font-family: 'Salsa';
+    text-align: center;
+}
+@font-face {
+    font-family: 'Salsa';
+    src: url(Fonts/Salsa/Salsa-Regular.ttf);
+}
+@font-face {
+    font-family: 'tETKUR';
+    src: url(Fonts/Tektur/Tektur-VariableFont_wdth\,wght.ttf);
+}
+
+.inp{
+    color: aquamarine;
+    border: none;
+    border-bottom: 2px solid black; 
+    outline: none; 
+    font-family: 'tETKUR';
+}
+p{
+    color: white;
+    font-family: 'Salsa';
+}
+
+.inp:focus{
+     
+     border-bottom-color: blue;
+}
+#text{
+    color: aquamarine;
+    border: none;
+    border-bottom: 2px solid black; 
+    outline: none; 
+    font-family: 'tETKUR';
+    width: auto;
+    height: 70px;
+}
