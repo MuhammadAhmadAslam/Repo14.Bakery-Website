@@ -19,6 +19,7 @@
     font-family: 'Salsa';
     font-size: 2vh;
     color: #908B8B;
+    text-decoration: none;
 }
 .heading{
      color: #4b4342;
@@ -57,15 +58,22 @@
     height: 22vh;
 }
 .button{
-    border-radius: 50px;
+    border-radius: 10px;
     border: 1px solid plum;
-    width: 150px ;
-    height: 5px;
+    width: 55px ;
+    height: 2px;
     background-color: #5fcac7;
     color: #ffffff ;
     text-decoration: dotted;
     font-family: 'Salsa';
     text-align: center;
+    color: white;
+}
+.makean{
+    color: white;
+    font-size: 70%;
+    text-decoration: none;
+    height: 2px;
 }
 @font-face {
     font-family: 'Salsa';
@@ -101,3 +109,57 @@ p{
     width: auto;
     height: 70px;
 }
+.t1:hover{
+    color: green;
+    text-decoration: underline green;
+}
+.t1:visited{
+    color: #908B8B;
+    text-decoration: underline green;
+}
+#a{
+    background-color: #E9E0E0;
+}
+#b{
+    background-color: #E9E0E0;
+}
+.c{
+    color: #4b4342;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input{
+    height: 30px;
+
+}
+.link{
+    display: inline;
+    float: right;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 120%;
+}
+input{
+    outline: none;
+    border-bottom: 1px solid black;
+    border: none;
+}
+.heading1{
+    color: white;
+    font-family: monospace;
+    padding-top: 100px;
+}
+#abc{
+    background-color: #E9E0E0;
+    color: black;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+}
+h2{
+    margin-top: 40px;
+    color: white;
+
+}
+
