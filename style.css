@@ -10,11 +10,268 @@
     font-family: 'Tetkur';
     src: url(Fonts/Fonts/Tektur/Tektur-VariableFont_wdth\,wght.ttf);
 }
-
+@font-face {
+    font-family: 'ubuntu';
+    src: url(Fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(Fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+#main{
+    background: url(Images/mainpic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    opacity: 0.9;
+    
+    /* display: flex; */
+}
+#main h1{
+    color: white;
+    /* opacity: 100%; */
+    position: absolute;
+    left: 130px;
+    top: 110px;
+    font-family: 'Tetkur';
+}
+#main h3  {
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 200px;
+    font-family: 'Tetkur';
+    font-size: 170%;
+}
+#main #f1{
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 250px;
+    font-family: 'Tetkur';
+    font-size: 170%;
+}
+#main #f2{
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 290px;
+    font-family: 'Tetkur';
+    font-size: 170%;
+}
 *{
     margin: 0;
     padding: 0;
 }
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    #left img {
+        margin: 0;
+        padding: 0;
+        margin-right: 0px;
+        margin-left: 0px;
+        /* position: absolute;
+        left: 20px;
+        z-index: 1; */
+    }
+    #left{
+        display: flex;
+    }
+    #right{
+       display: flex;
+    }
+    #right img {
+        display: none; 
+    }
+    #right a{
+        font-size: 80%;
+        padding: 0px;
+        text-align: center;
+        margin-right: 0px;
+        text-align: center;
+    }
+    #right ul{
+        font-size: 80%;
+        padding: 0px;
+        display: flex;
+        text-align: center;
+    }
+    #right li{
+        padding: 0px;
+        text-align: center;
+        margin-right: 20px;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 10pt;
+        align-content: center;
+       
+        
+    }
+
+    #main h1{
+        font-size: 14pt;
+        position: absolute;
+        left: 30px;
+        font-weight: bolder;
+    }
+
+    #main h3{
+        font-size: 14pt;
+        position: absolute;
+        left: 30px;
+        font-weight: bolder;
+    }
+
+    #main #f1{
+        font-size: 14pt;
+        position: absolute;
+        left: 30px;
+        font-weight: bolder;
+    }
+
+    #main #f2{
+        font-size: 14pt;
+        position: absolute;
+        left: 30px;
+        font-weight: bolder;
+    }
+
+
+    .heading{
+        font-size: 20pt;
+        margin-top: 20px;
+    }
+
+    #our1 img{
+        width: 30%;
+    }
+    .mobile{
+        width: 20px;
+    }
+
+    #pictures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .mobile {
+        width: 200px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    #pictures2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}
+
+
+
+
+
+
+#ourspecial{
+    display: flex;
+}
+#pictures{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+.mobile{
+    padding: 10px;
+}
+.mobile1{
+    font-family: 'Roboto';
+    font-size: 14pt;
+}
+#pictures2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+#mainheading{
+    color: #393935;
+    margin-top: 50px;
+    font-family: 'Roboto';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left img{
+    margin-left: 130px;
+    margin-top: 14px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    display: flex;
+    padding: 20px;
+    font-family: 'ubuntu';
+    color: #393935;
+    margin-right: 40px;
+}
+#right a{
+    display: flex;
+    /* padding: 20px; */
+    font-family: 'ubuntu';
+    color: #393935;
+    text-decoration: none;
+    /* margin-right: 40px; */
+}
+li:hover{
+    color: #393935;
+    text-decoration: underline #393935;
+}
+#right{
+    display: flex;
+    margin-right: 100px;
+    font-family: 'ubuntu';
+    
+}
+
+
+
+
+
+
+
+
 .t1{
     font-family: 'Salsa';
     font-size: 2vh;
@@ -151,8 +408,8 @@ input{
     padding-top: 100px;
 }
 #abc{
-    background-color: #E9E0E0;
-    color: black;
+    background-color: #20C997;
+    color: white;
     border-radius: 10px;
     width: 90px;
     height: 35px;
